@@ -26,10 +26,10 @@ public class App
 
         List<TableExample> lista = new ArrayList<>();
 
-        TableExample archivo1 = new TableExample(3L, "archivo3.txt", "2023-05-30");
+        TableExample archivo1 = new TableExample(3L, "archivo3.txt archivo3.txt archivo3.txtarchivo3.txt archivo3.txt archivo3.txt", "2023-05-30");
         lista.add(archivo1);
 
-        TableExample archivo2 = new TableExample(3L, "archivo3.txt", "2023-05-30");
+        TableExample archivo2 = new TableExample(3L, "  archivo3 archivo3 archivo3.txtarchivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt archivo3 archivo3 archivo3.txt", "2023-05-30");
         lista.add(archivo2);
 
         TableExample archivo3 = new TableExample(3L, "archivo3.txt", "2023-05-30");
@@ -44,8 +44,8 @@ public class App
             listaRegistros.add(listaTmp);
         }
 
-        listaCabecera.add("Nro");
-        listaCabecera.add("Nombre Archivo");
+        listaCabecera.add("Nro Nro Nro");
+        listaCabecera.add("Nombre Archivo Nombre Archivo Nombre Archivo Nombre Archivo Nombre Archivo Nombre Archivo Nombre Archivo");
         listaCabecera.add("Fecha Generación");
 
         //listaCabecera.add("Nro. Transacción");
